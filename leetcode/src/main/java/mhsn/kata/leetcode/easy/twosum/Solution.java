@@ -1,4 +1,4 @@
-package mhsn.kata.leetcode.easy.twoSum;
+package mhsn.kata.leetcode.easy.twosum;
 
 interface Solution {
 
