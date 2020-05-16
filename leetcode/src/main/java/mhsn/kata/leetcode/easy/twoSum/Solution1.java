@@ -1,6 +1,6 @@
 package mhsn.kata.leetcode.easy.twoSum;
 
-class Solution1 {
+class Solution1 implements Solution{
 
   public int[] twoSum(int[] nums, int target) {
 
