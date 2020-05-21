@@ -27,4 +27,19 @@ class SolutionImplTest {
   void isPalindrome_whenInput10_returnFalse() {
     Assertions.assertFalse(palindromNumber.isPalindrome(10));
   }
+
+  @Test
+  void isPalindrome_whenInput123_returnFalse() {
+    Assertions.assertFalse(palindromNumber.isPalindrome(123));
+  }
+
+  @Test
+  void isPalindrome_whenInput1234321_returnTrue() {
+    Assertions.assertTrue(palindromNumber.isPalindrome(1234321));
+  }
+
+  @Test
+  void isPalindrome_whenInput123456_returnFalse() {
+    Assertions.assertFalse(palindromNumber.isPalindrome(123456));
+  }
 }
